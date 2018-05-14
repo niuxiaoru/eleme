@@ -1,0 +1,377 @@
+header{
+    width: 100%;
+    height: 1.38rem;
+    background: url("../img/secondheader.png");
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+header .nav{
+    width: 100%;
+    height: .88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .nav .navLeft{
+    display: flex;
+}
+header .nav .navRight{
+    display: flex;
+
+}
+header .nav .navRight .iconfont{
+    margin-left: .48rem;
+}
+header .nav i{
+    font-size: .36rem;
+    color: #FFFFFF;
+}
+header  .like{
+    width: .78rem;
+    height: .78rem;
+    border-radius: 50%;
+    background: white;
+    margin-right: .22rem;
+    position: absolute;
+    top:.88rem;
+    right: .22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.04rem .15rem 0.02rem rgba(0,0,0,0.6);
+}
+header  .like i{
+    font-size: .4rem;
+    color: #e25a5a;
+    display: flex;
+}
+.dianpu {
+    width: 100%;
+    height: 2.36rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    margin-top: .36rem;
+    display: flex;
+}
+.dianpu .shopImg{
+    width: 1.7rem;
+    height: 1.92rem;
+    background: blue;
+}
+.dianpu .shopImg .dp{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.dianpu .shopInfo{
+    height: 100%;
+    flex-grow: 1;
+    margin-left: 0.14rem;
+    display: flex;
+    flex-direction: column;
+}
+.dianpu .shopInfo h1{
+    font-size: .3rem;
+}
+.dianpu .dengji{
+    width: 100%;
+    display: flex;
+    margin-top: .14rem;
+}
+.dianpu .dengji img{
+    width: 1.5rem;
+    height: .3rem;
+
+}
+.dianpu .dengji .yues{
+    font-size: .24rem;
+    color: #141403;
+    margin-left: .16rem;
+}
+.dianpu .disc p{
+    font-size: .24rem;
+    margin-top: .14rem;
+}
+.dianpu .shou{
+    width: 100%;
+    display: flex;
+    margin-top: .14rem;
+}
+.dianpu .shou .left{
+    font-size: .18rem;
+   background:#ff0000 ;
+    color: #FFFFFF;
+}
+.dianpu .shou .right{
+    font-size: .18rem;
+    margin-left: .16rem;
+}
+.dianpin{
+    width: 100%;
+    height: .36rem;
+    border-bottom: 0.02rem solid #bcbbbe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dianpin li{
+    font-size: .24rem;
+    color: #0d0201;
+    position: relative;
+}
+.dianpin li.active:before{
+    content: '';
+    position: absolute;
+    bottom: -0.08rem;
+    width: 100%;
+    height: .06rem;
+    border-radius: .03rem;
+    background: #eb5958;
+}
+.listBox {
+    width:100% ;
+    height: auto;
+    display: flex;
+}
+.listBox .listCate {
+    width: 1.26rem;
+    background: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.05rem;
+}
+.listBox .listCate li{
+    width: 100%;
+    height: .94rem;
+    font-size: .24rem;
+    display: flex;
+    border-bottom: .02rem solid #bfbfbf;
+    justify-content: center;
+    align-items: center;
+}
+.listBox .listCate li.active{
+    background: #FFFFFF;
+}
+.listBox .listFood{
+    flex-grow: 1;
+    padding-left: 0.08rem;
+    box-sizing: border-box;
+}
+.listBox .listFood li{
+    width: 100%;
+    height: 1.6rem;
+    border-bottom: 0.02rem solid #bfbfbf;
+    display: flex;
+    margin-top: .18rem;
+}
+.listBox .listFood a{
+    display: block;
+}
+.listBox .listFood .picture{
+    width: .92rem;
+    height: 1.38rem;
+    background: blue;
+}
+.listBox .listFood .picture img{
+    width: .92rem;
+    height: 1.38rem;
+}
+.listBox .listFood .foodRight{
+    flex-grow: 1;
+    height: 100%;
+    margin-left: .2rem;
+    display: flex;
+    padding-right: .24rem;
+    flex-direction: column;
+    position: relative;
+}
+.listBox .listFood .foodRight h3{
+    font-size: .22rem;
+}
+.listBox .listFood .foodRight p{
+    width: 3.4rem;
+    font-size: .18rem;
+    color: #150606;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: .1rem;
+}
+.listBox .listFood .foodRight .foodSale{
+    font-size: .18rem;
+    color: #150606;
+    margin-top: .1rem;
+}
+.listBox .listFood .foodRight .foodPrice{
+    font-size: .24rem;
+    color: #df3535;
+    margin-top: .1rem;
+}
+.listBox .listFood .foodRight .btnGroup{
+    width: 1.1rem;
+    height: .35rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0.22rem;
+    right: 0.24rem;
+    align-items: center;
+}
+.listBox .listFood .foodRight .btnGroup .reduce {
+    width: .35rem;
+    height: .35rem;
+    background: url("../img/jian (2).gif");
+    background-size: cover;
+}
+.listBox .listFood .foodRight .btnGroup .add {
+    width: .36rem;
+    height: .35rem;
+    background: url("../img/jia.gif");
+    background-size: cover;
+}
+.listBox .listFood .foodRight .btnGroup p{
+    /*flex-grow: 1;*/
+    text-align: center;
+    width: .3rem;
+    height: .35rem;
+    /*line-height: .35rem;*/
+    font-size: .24rem;
+}
+.chuxiao{
+    width: 100%;
+    height: .36rem;
+    background: #e29191;
+    font-size: .18rem;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: .36rem;
+}
+.xiangqing{
+    width: 100%;
+    height: 1.14rem;
+    background: #FFFFFF;
+}
+.xiangqing .top{
+    width: 100%;
+    height: .4rem;
+    background: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    font-size: .18rem;
+    padding:0 .24rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+.xiangqing .top .icon-shanchu{
+    margin-right: .05rem;
+}
+.xiangqing .bottom{
+    width: 100%;
+    height: 100%;
+    font-size: .18rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /*position: absolute;*/
+    /*top: -.74rem;*/
+    /*left:0;*/
+}
+.xiangqing .bottom .right{
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xiangqing .bottom .right .price{
+    color: #ed2727;
+}
+.xiangqing .bottom .jiaru{
+    width: 1.1rem;
+    height: .35rem;
+    display: flex;
+    justify-content: space-between;
+    /*position: absolute;*/
+    /*bottom: 0.22rem;*/
+    /*right: 0.24rem;*/
+    align-items: center;
+}
+.xiangqing .bottom .jiaru .reduce {
+    width: .35rem;
+    height: .35rem;
+    background: url("../img/jian (2).gif");
+    background-size: cover;
+}
+.xiangqing .bottom .jiaru .add {
+    width: .36rem;
+    height: .35rem;
+    background: url("../img/jia.gif");
+    background-size: cover;
+}
+.xiangqing .bottom .jiaru p{
+    /*flex-grow: 1;*/
+    text-align: center;
+    width: .3rem;
+    height: .35rem;
+    /*line-height: .35rem;*/
+    font-size: .24rem;
+}
+ .bai{
+    width: 100%;
+    height: .98rem;
+}
+.tab{
+    width: 100%;
+    height: .98rem;
+    background: #1f1c1e;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+
+}
+.tab .shop{
+    width: 1rem;
+    height: .86rem;
+    background: url("../img/gouwuche.png");
+    background-size: cover;
+    position: absolute;
+    bottom: .36rem;
+    left: .36rem;
+}
+.tab .peiPrice{
+    width: 1.04rem;
+    height: .98rem;
+    position: absolute;
+    bottom: 0;
+    left: 1.52rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tab .peiPrice .jiage{
+    font-size: .3rem;
+    color: #ffffff;
+}
+.tab .peiPrice .xianshi{
+    font-size: .18rem;
+    color: #FFFFFF;
+}
+.tab .chajia{
+    width: 2.14rem;
+    height: .98rem;
+    background: #4bae50;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: .22rem;
+    text-align: center;
+    line-height: .98rem;
+
+}

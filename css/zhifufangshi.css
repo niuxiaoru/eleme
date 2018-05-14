@@ -1,0 +1,65 @@
+.nav i{
+    width: 100%;
+    height: .88rem;
+    font-size: .24rem;
+    color: white;
+    line-height: .88rem;
+}
+.please{
+    width:100%;
+    height: 1.38rem;
+    margin-top: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.please .xianze{
+    font-size: .3rem;
+    text-align: center;
+}
+.please img{
+    width: .32rem;
+    height: .32rem;
+    margin-left: 1.8rem;
+    margin-right: .62rem;
+}
+.ways{
+    width: 100%;
+    padding:  0 .24rem;
+    box-sizing: border-box;
+}
+.ways .wayList{
+    width: 100%;
+    height: 1.34rem;
+    border-bottom: .02rem solid #595959;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ways .wayList .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: .40rem;
+}
+.ways .wayList .left img{
+    width: .69rem;
+    height: .69rem;
+}
+.ways .wayList .left .name{
+    font-size: .24rem;
+    margin-left: .46rem;
+}
+.ways .wayList .right{
+    display: flex;
+    align-items: center;
+}
+.ways .wayList .right img{
+    width: .32rem;
+    height: .32rem;
+    margin-right: .4rem;
+}
+.ways .wayList1 .left img{
+    width: .63rem;
+    height: .53rem;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+   list-style: none;
+    color: #000000;
+
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+input,textarea,button{
+    border: none;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    font-size: .18rem;
+    color:#a19c9c;
+    background:#eee;
+}

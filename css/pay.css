@@ -1,0 +1,211 @@
+header{
+    width: 100%;
+    height: 2.36rem;
+    background: url("../img/payheader.png");
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.nav {
+    width: 100%;
+    height: .88rem;
+    font-size: .24rem;
+    color: white;
+    line-height: .88rem;
+}
+
+.adress .gongsi{
+    width: 100%;
+    /*height: .24rem;*/
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.adress .gongsi .peisong{
+    font-size: .18rem;
+    color: white;
+    line-height: .24rem;
+}
+.adress .gongsi .kuang{
+    margin-left: .12rem;
+    border: .02rem solid white;
+    font-size: .18rem;
+    color: white;
+}
+.adress .xuexiao{
+
+    display: flex;
+    justify-content: space-between;
+}
+.adress .xuexiao .left{
+    font-size: .24rem;
+    color: white;
+}
+.adress .xuexiao  i{
+    font-size: .24rem;
+    color: white;
+}
+.adress .name {
+    display: flex;
+    justify-content: flex-start;
+}
+.adress .name span{
+    font-size: .18rem;
+    color: white;
+    margin-right: .12rem;
+}
+.adress .time{
+    width: 100%;
+    height: 1.7rem;
+    background: white;
+    border-radius: .1rem;
+    border: .01rem solid red;
+    margin-top: .12rem;
+    box-shadow: 0 .04rem .15rem .02rem rgba(0,0,0,0.1);
+}
+.adress .time .top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .02rem solid #595959;
+    align-items: center;
+}
+.adress .time .top .songda{
+    font-size: .22rem;
+    color: #0b0101;
+    margin-left: .12rem;
+    /*line-height: .35rem;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+}
+.adress .time .top .timeInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adress .time .top .timeInfo span{
+    font-size: .22rem;
+    color: #f53535;
+    line-height: .35rem;
+    margin-right: .2rem;
+}
+.adress .time .bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adress .time .bottom .way{
+    font-size: .22rem;
+    color: #0b0101;
+    line-height: .35rem;
+    margin-left: .12rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+.adress .time .bottom .choice{
+    display: flex;
+    justify-content: space-between;
+    /*align-content: center;*/
+}
+.adress .time .bottom span{
+    font-size: .22rem;
+    color: #f53535;
+    line-height: .35rem;
+    /*display: flex;*/
+    margin-right: .2rem;
+}
+.adress .time .bottom .choice i{
+    font-size: .22rem;
+    color: #f53535;
+    line-height: .35rem;
+    margin-right: .2rem;
+    /*display: flex;*/
+}
+.dianName{
+    width: 100%;
+    height: 1.1rem;
+    font-size: .3rem;
+    color: #0d0201;
+    line-height: 1.1rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 1.4rem;
+}
+.dingdanName{
+    width: 7.02rem;
+    height: 2.86rem;
+    background: white;
+    border-radius: .1rem;
+    border: .01rem solid red;
+    margin-top: .12rem;
+   margin-left: .24rem;
+}
+.dingdanName .top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .02rem solid #595959;
+    align-items: center;
+}
+.dingdanName .top .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dingdanName .top .left img{
+    width: 1.2rem;
+    height: 1.1rem;
+    margin-left: .22rem;
+}
+.dingdanName .top .left span{
+    font-size: .24rem;
+    color: #0b0101;
+    margin-left: .12rem;
+}
+.dingdanName .top .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dingdanName .top .right span{
+    font-size: .24rem;
+    margin-left: .24rem;
+    margin-right: .12rem;
+}
+.dingdanName .bottom{
+    border-bottom: 0;
+}
+.beizhu {
+    width: 7.02rem;
+    height: 2.34rem;
+    background: white;
+    border-radius: .1rem;
+    border: .01rem solid red;
+    margin-top: .64rem;
+    margin-left: .24rem;
+}
+.beizhu .top{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .02rem solid #595959;
+    align-items: center;
+}
+.beizhu .bottom{
+    border-bottom: 0;
+}
+.beizhu .top .left {
+    font-size: .24rem;
+    color: #0b0101;
+    margin-left: .12rem;
+}
+.beizhu .top .right{
+    font-size: .24rem;
+    color: #0b0101;
+    margin-right: .12rem;
+}

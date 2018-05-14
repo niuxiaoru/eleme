@@ -1,0 +1,144 @@
+.desc{
+    width: 100%;
+    height: 2.1rem;
+    margin-top: .34rem;
+}
+.desc .title{
+    width: 100%;
+    height: 1.12rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.desc .title .left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.desc .title .left h3{
+    font-size: .24rem;
+    color: #0d0201;
+}
+.desc .title .left .des{
+    font-size: .18rem;
+    color: #0d0201;
+    margin-top: .12rem;
+    margin-bottom: 0.12rem;
+}
+.desc .title .left .shoujia{
+    font-size: .18rem;
+    color: #ffffff;
+}
+.desc .right{
+    width: 1.4rem;
+    height: .48rem;
+    border-radius: .1rem;
+    background: #eb6100;
+    font-size: .18rem;
+    color: #F4F4F4;
+    text-align: center;
+    line-height: .48rem;
+    margin-top: .6rem;
+}
+.desc .bottom{
+    width: 100%;
+    font-size: .18rem;
+    color: #0d0201;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    margin-top: .16rem;
+    border-bottom: .04rem solid #595959;
+}
+.desc .bottom .miaoshu{
+    margin-bottom: .12rem;
+}
+.guKe{
+    width: 100%;
+    height: .72rem;
+    font-size: .22rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    line-height: .72rem;
+    border-bottom: .02rem solid #595959;
+    margin-top: .12rem;
+}
+.userDes{
+    width: 100%;
+
+}
+.userDes li{
+    width: 100%;
+    height: 2.18rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: .02rem solid #595959;
+}
+.userDes li .userLeft{
+    width: 1.08rem;
+    height: 1.08rem;
+    border-radius:50%;
+    margin-top: .28rem;
+}
+.userDes li .userLeft img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+.userDes li .userRight{
+    height: 100%;
+    flex-grow: 1;
+    margin-left: .2rem;
+    padding-top: .2rem;
+    box-sizing: border-box;
+}
+.userDes li .userRight .wangmin{
+    height: .34rem;
+    display: flex;
+    justify-content: space-between;
+}
+.userDes li .userRight .wangmin .left{
+    width: 3.2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .22rem;
+    color: #0d0201;
+}
+.userDes li .userRight .wangmin .left img{
+    width: 1.6rem;
+    height: .3rem;
+}
+.userDes li .userRight .wangmin .right{
+    font-size: .18rem;
+    color: #0d0201;
+}
+.postion{
+    height: .24rem;
+    font-size: .18rem;
+    color: #0d0201;
+    display: flex;
+    margin-top: .16rem;
+}
+.description{
+    height: .24rem;
+    font-size: .18rem;
+    color: #0d0201;
+    display: flex;
+    margin-top: .16rem;
+}
+.liuLan{
+    height: .34rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .16rem;
+    font-size: .18rem;
+}
+.liuLan .right{
+    display: flex;
+    justify-content: space-between;
+}
+.liuLan .right .xinxi{
+    margin-left: .2rem;
+}

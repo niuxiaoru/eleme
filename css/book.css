@@ -1,0 +1,129 @@
+header{
+    width: 100%;
+    height: .88rem;
+    background: url("../img/bookheader.png");
+    /*background-size: 100% 100%;*/
+    padding-left:0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+header .navNamedd{
+    height: 100%;
+    margin: 0 auto;
+    padding-top: .12rem;
+    box-sizing: border-box;
+}
+header .navNamedd .top{
+    font-size: .3rem;
+    color: white;
+    text-align: center;
+
+}
+header .navNamedd .bottom{
+    font-size: .2rem;
+    color: white;
+    text-align: center;
+}
+.bookXiangqing {
+    width: 100%;
+}
+.bookXiangqing li{
+    width: 100%;
+    height: 2.38rem;
+    background: url("../img/yuanjiao.png");
+    background-size: 100% 100%;
+    padding: 0 .11rem;
+    box-sizing: border-box;
+    margin-top: .5rem;
+    display: flex;
+    position: relative;
+}
+.bookXiangqing li .again{
+    /*width: 1.34rem;*/
+    height: 2.08rem;
+    margin-top: .1rem;
+    margin-left: .12rem;
+}
+.bookXiangqing li .again .touxiang{
+    width: .8rem;
+    height: .8rem;
+    border-radius: .4rem;
+    display: block;
+    margin-top: .12rem;
+    margin-left: .2rem;
+
+}
+.bookXiangqing li .again .fenGen{
+    width: .92rem;
+    height: .07rem;
+    display: block;
+    margin-top: .12rem;
+    margin-left: .14rem;
+}
+.bookXiangqing li .again .xingXing{
+    width:1.2rem;
+    height: .4rem;
+    display: block;
+    margin-top: .12rem;
+}
+.bookXiangqing li .again .zaiLai{
+    width: .92rem;
+    height: .25rem;
+    display: block;
+    margin-left: .14rem;
+}
+.bookXiangqing li .shuGang{
+    width: .48rem;
+    height: 1.66rem;
+    margin-top: .28rem;
+    margin-left: .06rem;
+}
+.bookXiangqing li .xiangXi{
+    flex-grow: 1;
+
+}
+.bookXiangqing li .xiangXi .meiSen{
+    font-size: .22rem;
+    margin-top: .18rem;
+}
+.bookXiangqing li .xiangXi .yingWen{
+    font-size: .18rem;
+    margin-bottom: .1rem;
+}
+.bookXiangqing li .xiangXi .hongDian{
+    width: .94rem;
+    height: .05rem;
+    display: flex;
+
+}
+.bookXiangqing li .xiangXi .food{
+    font-size: .18rem;
+    margin-top: .12rem;
+    margin-bottom: .12rem;
+}
+.bookXiangqing li .xiangXi .box {
+    display: flex;
+    align-items: center;
+}
+.bookXiangqing li .xiangXi .box img{
+    width: .46rem;
+    height: .46rem;
+}
+.bookXiangqing li .xiangXi .box span{
+    font-size: .18rem;
+}
+.bookXiangqing li .money{
+    width: .7rem;
+    height: .8rem;
+    position: absolute;
+    top: 0;
+    right: .8rem;
+    background: url("../img/jiaqian.png");
+    background-size: 100% 100%;
+}
+.bookXiangqing li .money .jiaQian{
+    font-size: .18rem;
+    color: white;
+   margin-left: .06rem;
+    margin-top: .1rem;
+}

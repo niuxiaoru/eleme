@@ -1,0 +1,110 @@
+.success{
+    width: 100%;
+    margin-top: .46rem;
+}
+.success .zhiFuChengGong{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.success .zhiFuChengGong .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.success .zhiFuChengGong .box .yuE{
+    width: .6rem;
+    height: .6rem;
+}
+.success .zhiFuChengGong .box .zhiFuSuccess{
+    font-size: .3rem;
+    margin-left: .2rem;
+}
+.success .zhiFuChengGong .wenHao{
+    width: .3rem;
+    height: .3rem;
+    margin-left: 2.04rem;
+    margin-right: .24rem;
+}
+.yuexia{
+    width: .68rem;
+    height: .22rem;
+    margin-top: .02rem;
+    margin-left: 2.86rem;
+    display: flex;
+}
+.successYingWen{
+    font-size: .24rem;
+    color: #cabcbc;
+    text-align: center;
+    margin-top: .14rem;
+}
+.hengX{
+    width: 7.02rem;
+    height: .03rem;
+    margin-left: .24rem;
+    background: #757070;
+    margin-top: .4rem;
+}
+.rmb {
+    width: 100%;
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.rmb span{
+    font-size: .3rem;
+    color: #ed4ab7;
+}
+.rmb .renminbi{
+    margin-right: .38rem;
+}
+.xiaoFei{
+    font-size: .22rem;
+    color: #ed4ab7;
+    text-align: center;
+    margin-top: .4rem;
+}
+.dui{
+    width: 1.14rem;
+    height: 1.14rem;
+    margin-top: 1.14rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jieshu{
+    width: 100%;
+    margin-top: 1.16rem;
+    display: flex;
+    justify-content: space-around;
+}
+.jieshu .left{
+    width: 1.64rem;
+    height: .6rem;
+    background: url("../img/yuanleft.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jieshu .left span{
+    font-size: .22rem;
+    color: white;
+    text-align: center;
+}
+.jieshu .right{
+    width: 1.64rem;
+    height: .6rem;
+    background: url("../img/yuanright.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jieshu .right span{
+    font-size: .22rem;
+    color: white;
+}

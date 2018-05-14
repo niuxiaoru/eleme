@@ -1,0 +1,31 @@
+.content .box .in2{
+    border-bottom: 0;
+}
+.three{
+    width: 100%;
+    margin-top: 2.8rem;
+    display: flex;
+    justify-content: center;
+}
+.three .box{
+    width: .92rem;
+    height: .92rem;
+    border-radius: .46rem;
+    box-shadow: 0 0.04rem .15rem 0.02rem rgba(0,0,0,0.3);
+    margin-right: .28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three .box .qq{
+    width: .52rem;
+    height: .54rem;
+}
+.three .box .weixin{
+    width: .58rem;
+    height: .48rem;
+}
+.three .box .weibo{
+    width: .49rem;
+    height: .4rem;
+}

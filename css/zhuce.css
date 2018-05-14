@@ -1,0 +1,144 @@
+.zhucetoux{
+    display: block;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: .88rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.huanYin{
+    font-size: .24rem;
+    color: #717272;
+    text-align: center;
+    margin-top: .26rem;
+}
+.dian{
+    width: 100%;
+    margin-top: .26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dian img{
+    width: .56rem;
+    height: .11rem;
+}
+.dian .zi{
+    font-size: .24rem;
+    color: #e62020;
+    margin-right: .12rem;
+    margin-left: .12rem;
+}
+.huang{
+    width: 5.02rem;
+    height: 3rem;
+    border-radius: .26rem;
+    background: #ed9e37;
+    margin-top: 1.04rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.content{
+    width: 5.66rem;
+    height: 3.44rem;
+    border-radius: .26rem;
+    background: #EEEEEE;
+    position: absolute;
+    top:.28rem;
+    left: -.36rem;
+}
+.content .dots{
+    margin-top: .14rem;
+    display: flex;
+    justify-content: center;
+}
+.content .dots .dot{
+    width: .15rem;
+    height: .15rem;
+    border-radius: .08rem;
+    background: #a69c9c;
+    margin-right: .16rem;
+}
+.content .dots .dot.active{
+    background:#ee50ba;
+}
+.content .box{
+    width: 5.02rem;
+    margin-top: .4rem;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content .box .one{
+    width: .2rem;
+    height: .04rem;
+    border-radius: 0.02rem;
+    background: #0000ff;
+}
+.content .box .in{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .03rem solid #c4bcbc;
+    align-items: center;
+}
+.content .box .text{
+    margin-left: .1rem;
+    margin-bottom: .1rem;
+}
+.content .box .in .shouji{
+    width: .18rem;
+    height: .28rem;
+    margin-right: .12rem;
+}
+.content .box .in .yanZheng{
+    width: 1.3rem;
+    height: .32rem;
+    border-radius: .12rem;
+    background: #2ee7be;
+    font-size: .16rem;
+    color: white;
+    text-align: center;
+}
+.content .box .in .suo{
+    width: .2rem;
+    height: .24rem;
+    margin-right: .12rem;
+}
+.content .xiaDui{
+    width: 1.4rem;
+    height: .4rem;
+    border-radius: .16rem;
+    background: #bbbcbd;
+    position: absolute;
+    bottom: -.2rem;
+    left:2.1rem
+}
+.content .xiaDui img{
+    display: block;
+    width: .3rem;
+    height: .22rem;
+    margin-top: .09rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.agree{
+    width: 100%;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    margin-top: 2.8rem;
+    display: flex;
+    align-items: center;
+}
+.agree .xian{
+    width: 1rem;
+    height: .04rem;
+    background: #a69c9c;
+}
+.agree .xieyi{
+    font-size: .18rem;
+    margin-left: .12rem;
+    margin-right: .08rem;
+}
